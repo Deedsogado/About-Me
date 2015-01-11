@@ -1,0 +1,382 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	font: 12px/18px "Lucida Grande", Verdana, sans-serif;
+	color: #333;
+}
+
+body {
+	background: #eee url(../photos/topbarlightblue.png) repeat-x;
+	background-attachment: fixed;
+}
+
+#wrap {
+	min-height: 100%;
+	position: relative;
+	background: url(../photos/bottombar.png) 0 100% repeat-x;
+}
+
+#page {
+	background-color: white;
+	width: 960px;
+	margin: auto;
+	position: relative;
+	overflow: auto;
+}
+
+header {
+	background: url(../photos/horuslightblue.png) bottom no-repeat;
+	position: fixed;
+	top: 0;
+	left: 50%;
+	margin-left: -480px;
+	width: 960px;
+	height: 100px;
+	z-index: 100;
+}
+
+
+header h1 {
+	float: left;
+	padding: 20px 24px 24px 162px;
+	font-size: 1.5em;
+	line-height: 1em;
+	color: #254d6c;
+}
+
+nav{
+	padding-top: 20px;
+	padding-right: 12px;
+	text-align: right;
+	list-style: none;
+}
+
+nav li a {
+	font-size: 1.25em;
+	line-height: 1em;
+	text-decoration: none;
+	color: #fff;
+}
+
+nav li a:visited {
+	color: green;
+}
+
+nav li a:hover {
+	color: #300;
+}
+
+nav li a:active{
+	color: red;
+}
+
+.horiz {
+	display: inline;
+	margin: 0 12px;
+}
+
+article {
+	padding-bottom: 0px;
+	width: 600px;
+	margin: 0 0 0 196px;
+	padding-top: 0px;
+	min-height:100%;
+}
+
+article img {
+	float: right;
+	margin: 0 5px;
+	padding: 3px;
+	border: 3px solid #eee;
+	background: #fff;
+	height: 199px;
+}
+
+
+article p {
+	padding-bottom: 18px;
+	text-indent: 2em;
+}
+
+article img {
+	float: right;
+	margin: 0 5px;
+	padding: 3px;
+	border: 3px solid #eee;
+	background: #fff;
+	height: 199px;
+}
+
+article ul, ol {
+  padding: 0 40px;
+}
+
+article figure {
+	border: 3px solid #eee;
+	background-color: white;
+	margin-top: -22px;
+}
+
+article figure img {
+	border-style: none;
+	border: 0;
+	padding-top: -10;
+}
+
+article figcaption {
+	text-align: center;
+	margin-bottom: 3px;
+}
+
+footer {
+	width: 960px;
+	height: 128px;
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	margin-left: -480px;
+	background: url(../photos/footer.png) bottom no-repeat;
+	font-size: 10px;
+	line-height: 1em;
+	text-shadow: 1px 1px 1px #333;
+	color: #fff;
+	z-index: 95;
+}
+
+footer a:link, footer a:visited {
+	color: #c99;
+}
+
+a:link, a:visited {
+	color: #633;
+}
+
+a:hover {
+	color: #966;
+}
+
+h2 {
+	margin-bottom: 0;
+	margin-left: -204px;
+	padding: 15px 0 1px 204px;
+	font: italic normal 1.5em/18px Georgia, serif;
+	color: #633;
+	background: url(../photos/h3_ornament.png) 8px 0 no-repeat;
+}
+
+h3, h4{
+	font-weight: normal;
+	font-size: 1em;
+	line-height: 18px;
+}
+
+h3 {
+	margin-left: -204px;
+	padding: 10px 0 20px 204px;
+	font-size: 1.25em;
+	text-transform: uppercase;
+	color: #5c5c5c;
+}
+
+hr {
+	padding: 0;
+	margin-bottom: 11px;
+	border: none;
+	border-top: 1px solid #5c5c5c;
+	margin-top: 20px;
+}
+
+
+
+aside.figure{
+	float: right;
+}
+
+article.strengths {
+	margin: 0 0 0 49px;
+	width: 860px;
+}
+
+article.strengths p {
+	padding-bottom: 18px;
+	text-indent: 2em;
+}
+
+article.strengths h2 {
+	margin-bottom: 0;
+	margin-left: -57;
+	padding: 15px 0 1px 204px;
+	font: italic normal 1.5em/18px Georgia, serif;
+	color: #633;
+	background: url(../photos/h3_ornament.png) 8px 0 no-repeat;
+}
+
+article.feedback {
+	margin: 0 24px 0 196px;
+	width: 600px;
+}
+
+article.feedback p {
+	padding-bottom: 18px;
+	text-indent: 0;
+}
+
+.bigsmall {
+    display: block;
+	padding: 100px 24px 0 24px;
+	font-size: 10px;
+}
+
+table {
+	border: dashed green 4px;
+	border-collapse: collapse;
+	width:100%
+}
+
+th {
+	border: solid red 1px;
+}
+
+td {
+	font: 12px "Lucida Grande", Verdana, sans-serif;
+	border: solid red 1px;
+	padding: 8px;
+}
+
+article.strengths table td p {
+	padding-bottom: 1ex;
+	text-align: justify;
+}
+
+td.attribute {
+	font-size: 1em;
+	text-transform: uppercase;
+	color: #5c5c5c;
+	padding: 8px;
+	text-align: center;
+}
+
+.example {
+	background-color: #eee;
+}
+
+caption {
+	font: italic normal 1.5em serif;
+	padding-bottom: 8px;
+}
+
+article.pictures {
+	width: 860px;
+	margin: 0 0 0 49px;	
+	position: relative;
+}
+
+article.pictures h2 {
+	margin-bottom: 0;
+	margin-left: -57;
+	padding: 15px 0 1px 204px;
+	font: italic normal 1.5em/18px Georgia, serif;
+	color: #633;
+	background: url(../photos/h3_ornament.png) 8px 0 no-repeat;
+}
+
+article.pictures img {
+	float: none;
+	margin: 0 5px;
+	padding: 3px;
+	border: 3px solid #eee;
+	background: #fff;
+	height: 199px;
+	display: block;
+	clear: none;
+}
+
+img#scout {
+	width: 299;
+	height: 398;
+	position: relative;
+	left: -40px;
+	top: 0px;
+	z-index: 20;
+}
+
+img#family {
+	width: 299px;
+	height: 199px;
+	position: relative;
+	left: -40px;
+	top: 17px;
+	z-index: 30;
+}
+
+img#afterholi {
+	width: 513px; /* 354 original * 1.45 */
+	height: 288px; /* 199 original * 1.45 */
+	position: relative;
+	left: -40px;
+	top: 34px;
+	z-index: 45;
+	margin-bottom: 36px;
+}
+
+img#bestman {
+	width: 297px;
+	height: 199px;
+	position: absolute;
+	left: 289px;
+	top: 178px;
+	z-index: 25;
+}
+
+img#brazil {
+	width: 265px;
+	height: 199px;
+	position: absolute;
+	left: 613px;
+	top: 178px;
+	z-index: 30;
+}
+
+
+
+img#greenshirt {
+	width: 298px;
+	height: 398px;
+	position: absolute;
+	left: 289px;
+	top: 406px;
+	z-index: 35;
+}
+
+img#churchclothes {
+	width: 265px; /* 265 original * 0.95*/
+	height: 189px; /* 199 original * 0.95*/
+	position: absolute;
+	left: 614px;
+	top: 406px;
+	z-index: 40;
+}
+
+img#beforeholi {
+	width: 265px; /* 269 original * 0.95*/
+	height: 189px; /* 199 original * 0.95*/
+	position: absolute;
+	left: 614px;
+	top: 614px;
+	z-index: 45px;
+}
+
+img#templesquare {
+	width: 384px; /* 265 original * 1.45*/
+	height: 288px; /* 199 original * 1.45*/
+	position: absolute;
+	left: 499px;
+	top: 834px;
+	z-index: 5;
+}
